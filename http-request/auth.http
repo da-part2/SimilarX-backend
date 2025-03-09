@@ -1,0 +1,24 @@
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "email": "melong@neople.co.kr",
+    "name": "melong",
+    "password": "123456"
+}
+###
+
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+    "email": "melong@neople.co.kr",
+    "password": "123456"
+}
+###
+
+Get http://localhost:3000/auth/signout
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1lbG9uZ0BuZW9wbGUuY28ua3IiLCJzdWIiOjEsImlhdCI6MTc0MTUyMTUxMiwiZXhwIjoxNzQxNTIxODEyfQ.3RAXWdCCIpi_XuflCvxaj-pvqxny_h-U_aiCmjyIBEs
+
+###
+

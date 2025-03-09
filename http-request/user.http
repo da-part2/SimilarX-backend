@@ -1,0 +1,4 @@
+GET http://localhost:3000/user
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1lbG9uZ0BuZW9wbGUuY28ua3IiLCJzdWIiOjEsImlhdCI6MTc0MTUxOTIxOCwiZXhwIjoxNzQxNTE5NTE4fQ.TBQaNhA9rbvgBBiZRsDTqZQ9lyVI_Q4Lfegi_7mEFps
+###
+
