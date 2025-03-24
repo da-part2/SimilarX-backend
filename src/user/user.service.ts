@@ -82,6 +82,13 @@ export class UserService {
       where: {
         email,
       },
+      select: {
+        id: true,
+        email: true,
+        name: true,
+        createdAt: true,
+        updatedAt: true,
+      },
     });
 
     if (!user) {
